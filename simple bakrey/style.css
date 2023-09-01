@@ -1,0 +1,58 @@
+h1{
+    color:brown;
+}
+.vip{
+     color: aquamarine;
+     background-color: black;
+     text-align: center;
+}
+div{
+    width: 300px;
+    border-top: 2px;
+    border-style: dashed;
+    border-color: rgb(82, 14, 47);
+    
+}
+h3{
+    text-underline-position: below;
+}
+.big{
+    font-size:xx-large;
+    text-align: center;
+}
+
+body{
+ width: 100;
+ height: auto;
+ background-color: aquamarine;
+}
+img{
+    width: 300px;
+}
+.imgg{
+    width: 200px;
+    border-radius: 60%;
+}
+a{
+    text-align: left;
+    color: brown;
+}
+.mm{
+    width: 300px;
+    color: brown;
+    background-color: aquamarine;
+    border-radius: 20%;
+}
+.ss{
+    text-align: center;
+}
+label {
+    font:
+      1rem 'Fira Sans',
+      sans-serif;
+  }
+  
+  input {
+    margin: 0.4rem;
+  }
+  

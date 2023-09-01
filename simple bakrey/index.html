@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iti</title>
+  <!--internal(first way to write the css file) -> the second way is external by adding new file - the third way is  in line , not that the code work line by line so if you use two styles for the samething it will excute the last thing-->
+    <style>
+        h2{
+            color: blueviolet;
+        }
+        p{
+            color: blueviolet;
+        }
+    </style>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <h1 class="vip">hello</h1>
+    <h2 class="big">title</h2> <br>
+    <p   class ="big" style="color: blue;">this my website </p>
+    <!-- <audio controls muted autoplay loop src="madio/audio.mp3"></audio>
+    <video width="500px" controls loop autoplay muted src="medio/video.mp4 "></video> -->
+   
+    <form>
+      <label for="fname">firstName:</label>
+     <input type="text" name="firstname" value="manar" placeholder="first name" required="required" id="fname">
+     
+     <br>
+      <br>
+      <label for="">password:</label>
+      <input type="password" name="password" maxlength="10">
+
+      <br>
+       <br>
+
+       <label for="">age:</label>
+       <input type="number" name="age" max="55"><br><br>
+
+      <label for="">e_mail</label>
+      <input type="email" name="e_mail">
+        <br><br>
+      <h1>skills</h1>
+         <input type="checkbox" name="skills" value="php"><label for="">php</label>
+        <input type="checkbox" name="skills" value="python"><label for="">python</label>
+         <input type="checkbox" name="skills" value="c++"> <label for="">c++</label>
+         <br><br>
+         <h1>gender</h1>
+         <input type="radio" name="gender" value="male" ><label for="">male</label>
+         <input type="radio" name="gender" value="female" ><label for="">female</label><br><br>
+
+         <select name="skills" id="">
+            <option value="html">html</option>
+            <option value="php">php</option>
+            <option value="python">python</option>
+
+
+         </select>
+        <br><br>
+    <textarea name="message" id="" cols="30" rows="10" style="resize:none;"></textarea>
+    <br><br>
+         <input type="submit" value="ok">
+         <button type="submit" > </button>
+    <br><br>
+   
+
+
+    </form>
+</body>
+</html>
+<!--div is a conter to carry multiple things-->
+<!--we use name to help the backend developer to understand what this data mean , and this will appear in the url of the page-->
